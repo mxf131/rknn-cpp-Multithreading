@@ -45,8 +45,8 @@ int main(int argc, char **argv)
 
   cv::VideoCapture capture;
   cv::namedWindow("Camera FPS");
-  if (strlen(image_name) == 1)
-    capture.open((int)(image_name[0] - '0'));
+  if (strlen(image_name) == 2)
+    capture.open("http://admin:123456@192.168.31.233:8081/video");
   else
     capture.open(image_name);
 

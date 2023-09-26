@@ -25,7 +25,7 @@ cd -
 # relu版本
 #cd install/rknn_yolov5_demo_Linux/ && ./rknn_yolov5_demo ./model/RK3588/yolov5s-640-640.rknn ../../720p60hz.mp4
 # silu版本
-cd install/rknn_yolov5_demo_Linux/ && ./rknn_yolov5_demo ./model/RK3588/yolov5s.rknn ../../720p60hz.mp4
+cd install/rknn_yolov5_demo_Linux/ && ./rknn_yolov5_demo ./model/best0912.rknn 20
 # 使用摄像头
 # cd install/rknn_yolov5_demo_Linux/ && ./rknn_yolov5_demo ./model/RK3588/yolov5s-640-640.rknn 0
 
